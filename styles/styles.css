@@ -1,13 +1,14 @@
 /*Css formating*/
 body{
     background-color: rgb(255, 255, 255);
-    background-size: 130%;
-    background-image: url(https://images.newscientist.com/wp-content/uploads/2021/11/04115120/PRI_208401432.jpg);
+    background-size: 130%
+
 }
 header{
     padding:2px 4px;
     background-color: rgba(0,0,0,0.6);
     text-align: center;
+
 
 }
 h1{
@@ -39,6 +40,7 @@ button{
 
 #Paragraph_in_bubble{
  color: rgba(255,255,255);
+ text-align: center;
 }
 .main_button{
   top:50%;
@@ -46,7 +48,7 @@ button{
 
 }
 a:link, a:visited {
-  background-color: rgba(199,0,0,0.7);
+  background-color: rgba(199,0,0,0.3);
   color: white;
   padding: 15px 25px;
   text-align: center;
@@ -55,7 +57,7 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-  background-color: red;
+  background-color: rgba(0,120,0,0.9);
 }
 
 #Paragrah_2{
@@ -66,4 +68,14 @@ a:hover, a:active {
 }
 #Copyright_color{
   color: rgba(255,255,255,0.3);
+}
+h2{
+  color: rgba(255,255,255);
+}
+h2:hover{
+  color: rgba(255,0,0);
+}
+#list{
+ text
+ text-decoration: none;
 }
