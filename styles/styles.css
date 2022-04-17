@@ -1,81 +1,113 @@
-/*Css formating*/
-body{
-    background-color: rgb(255, 255, 255);
-    background-size: 130%
+/*css formating*/
+.navigation{
+  font-size: 100%;
+  position: fixed;
+}
+.navigation{
+  color: rgba(255,255,255,0.8);
+
 
 }
-header{
-    padding:2px 4px;
-    background-color: rgba(0,0,0,0.6);
-    text-align: center;
-
-
+a:hover{
+  color:rgba(255,255,255);
 }
 h1{
-  color: rgba(100,180, 253);
+  background-color: rgba(43,255,255,0.5);
+  background-size: 130%;
+  width:100%;
+  margin-top: -5px;
+  margin-left: calc(100%+(-10px));
 }
-button{
-  background-color: transparent;
-  border-style: none;
-  font-size: 125%;
-  border-radius: 5%
+body{
+  background-color: rgba(0,0,0,0.5);
+  background-image:url('../img/background-img.jpg');
+  margin:0 auto;
+  background-color:#fff;
+  color:#00f;
+  font-family:"Raleway", Helvetica, sans-serif;
+  background-size: 130%;
 
 }
-.footerWrap {
-    width:100%;
-    position:fixed;
-    bottom: 0px;
-}
-.footer {
-    width:400px;
-    margin:auto;
-}
-.footerContent {
-    float:left;
-    width:100%;
-    background-color:rgba(255,255,255,0);
-    padding:0px 0;
-}
-.footer p {float:left; width:100%; text-align:center; }
-
-#Paragraph_in_bubble{
- color: rgba(255,255,255);
- text-align: center;
-}
-.main_button{
-  top:50%;
-  position:absolute;
-
-}
-a:link, a:visited {
-  background-color: rgba(199,0,0,0.3);
-  color: white;
-  padding: 15px 25px;
+div#header{
+	background-color: rgba(34,255,255,0.4);
+	border-bottom: 3px solid #000000;
+	display:inline-block;
+	width: 100%;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
 }
 
-a:hover, a:active {
-  background-color: rgba(0,120,0,0.9);
+img{
+	vertical-align: bottom;
+  float:left;
 }
 
-#Paragrah_2{
-  color: rgba(255,255,255);
+div#nav_bar{
+	display: inline-block;
+}
+
+ul.nav { padding : 0;}
+
+.nav li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+.nav ul, a {
+  float:right;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+
+.nav a:hover {
+	background: rgba(0,0,173,0.4);
+}
+.main_paragraph{  color: rgba(255,255,255);
+
+}
+#par_main{
+  border: 4px solid black;
+  margin-top: 5%;
+  box-sizing: border-box;
+  width: 300px;
+  height: 358px;
+  display: flex;
+  text-align: center;
+  font-size: 130%;
+
+}
+#par{
+  border: 4px solid black;
+  margin-left: 20%;
+
+
+}
+p{
+  text-align: center;
+
+}
+#paragraph_button{
+  border:1px solid black;
+  font-weight: bold;
+  background-color: rgba(0,0,0,0.3);
+  border-radius: 5px;
+  height: 45px;
+  margin-top: 150px;;
+  margin-left: 89px;
+
+
   position: absolute;
-  margin-left: 15px;
-  top: 59%
 }
-#Copyright_color{
-  color: rgba(255,255,255,0.3);
+#paragraph_button:hover{
+  	background: rgba(0,0,173,0.4);
 }
-h2{
-  color: rgba(255,255,255);
-}
-h2:hover{
-  color: rgba(255,0,0);
-}
-#list{
- text
- text-decoration: none;
+footer{
+  position: fixed;
+           padding: 10px 10px 0px 10px;
+           bottom: 0;
+           width: 100%;
+           text-align: center;
+           height: 40px;
+           color: rgba(255,255,255);
 }

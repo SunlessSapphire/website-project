@@ -1,0 +1,54 @@
+input[type=text], select, textarea {
+  display: flex;
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  justify-content: center;
+  align-content: center;
+}
+input[type=submit] {
+  background-color: rgba(43,255,255,0.3);
+  color: rgba(0,0,0);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+input[type=submit]:hover {
+  background-color: rgba(0,0,173,0.9);
+}
+.container {
+  border-radius: 5px;
+  background-color: rgba(0,0,0,0.2);
+  padding: 20px;
+}
+#fname{
+  color:rgba(0,0,0);
+}
+#color{
+  color:rgba(255,255,255);
+  border: 2px;
+  border-radius: 4px;
+  padding: 4px;
+  background-color: rgba(204,204,204,0.3);
+}
+p{
+  display: flex;
+  margin: 4px;
+  color : rgba(255,255,255);
+}
+footer{
+  position: fixed;
+           padding: 10px 10px 0px 10px;
+           bottom: 0;
+           width: 100%;
+           text-align: center;
+           height: 40px;
+           color: rgba(255,255,255);
+}
